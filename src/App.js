@@ -11,8 +11,9 @@ class App extends Component {
     (() => {
       axios({
         method: 'get',
-        url: 'https://jsonplaceholder.typicode.com/posts',
-        responseType: 'json'
+        url: 'https://api.twitter.com/1.1/search/tweets.json?q=%23superbowl&result_type=recent',
+        responseType: 'json',
+        auth : "AAAAAAAAAAAAAAAAAAAAAGwx8wAAAAAAAdQnIR1RfF2iPbKV8hJcgEfKc80%3Dltm2VZlUJqgubBS0DOBQudPzZC1pAv18glqtXdWLbE19VlvdHz",
       })
         .then(data => {
           this.setState({ data: data.request.response });
