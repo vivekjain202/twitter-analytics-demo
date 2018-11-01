@@ -6,9 +6,9 @@ class Home extends Component {
   render() {
     return (
       <div id="Home">
-          <HeaderElement/>
+          <HeaderElement text={`Home Page`}/>
           <Cards/>
-          <FooterElement />
+          <FooterElement text={`Home Page Footer`}/>
       </div>
     )
   }

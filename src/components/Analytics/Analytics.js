@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class User extends Component {
+class Analytics extends Component {
   render() {
     return (
       <div>
-        User
+        Analytics
       </div>
     )
   }
 }
 
-export default  User;
+export default Analytics;

@@ -4,7 +4,7 @@ class FooterElement extends Component {
   render() {
     return (
       <div id="FooterElement">
-        Footer element
+        {this.props.text}
       </div>
     )
   }

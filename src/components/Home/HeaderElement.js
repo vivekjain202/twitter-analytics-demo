@@ -4,7 +4,7 @@ class HeaderElement extends Component {
   render() {
     return (
       <div id="HeaderElement">
-        Header Element
+        {this.props.text}
       </div>
     )
   }
