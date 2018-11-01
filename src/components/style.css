@@ -1,0 +1,51 @@
+/* Hpme page layout */
+#Home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* styles related to header */
+#HeaderElement,#FooterElement{
+    display: flex;
+    height: 10vh;
+    background-color: #1d1ae4bb;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Styles related to cards */
+
+#Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    overflow-y: scroll;
+    margin: 1vh;
+    
+}
+
+.cardStyle{
+    display : inline-flex;
+    background-color: #9fc5af6b;
+    height : 200px;
+    width  : 200px;
+    align-items: flex-end;
+    border:1px solid blue;
+    padding: 1vw 1vw;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+#FooterElement{
+    margin: 0px;
+}
