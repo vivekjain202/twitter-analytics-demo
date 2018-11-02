@@ -6,15 +6,25 @@
     height: 100vh;
 }
 
-#DisplayTicker{
+#UserBody{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: scroll;
+}
+
+#basicInfo{
     flex: 1;
 }
 
+.analyticsBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .tableStyle{
-    width: 100vw;
+    width: 90vw;
     border: 1px solid black;
 }
 
@@ -28,4 +38,8 @@ caption{
 td{
     border: 1px solid black;
     padding: 2vh 2vw;
+}
+
+.padding_2{
+    padding: 2% 0px;
 }

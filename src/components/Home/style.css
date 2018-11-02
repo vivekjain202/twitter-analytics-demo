@@ -31,7 +31,8 @@
 }
 
 .cardStyle{
-    display : inline-flex;
+    display : flex;
+    flex-wrap: wrap;
     background-color: #9fc5af6b;
     height : 200px;
     width  : 200px;
@@ -40,6 +41,12 @@
     padding: 1vw 1vw;
     margin: 5px;
 }
+
+img{
+    max-width: 100%;
+    min-height: 80%;
+}
+
 
 a{
     text-decoration: none;

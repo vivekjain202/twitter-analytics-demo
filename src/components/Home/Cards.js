@@ -38,7 +38,7 @@ class Cards extends Component {
     this.cardBuilder = this.cardBuilder.bind(this);
   }
   cardBuilder() {
-    return this.state.data.map((e, i) => <Link to={`/currency/${e.id}`} key={i}><div className="cardStyle">{e.name}</div></Link>)
+    return this.state.data.map((e, i) => <Link to={`/currency/${e.id}`} key={i}><div className="cardStyle"><img src="./currency.jpg" alt="currency"/> {e.name}</div></Link>)
   }
 
   render() {
